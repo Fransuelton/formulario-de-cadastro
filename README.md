@@ -7,14 +7,23 @@
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/fransuelton/formulario-de-cadastro??style=plastic&logo=github)
 
 
+
 <img src="./src/images/demo-readme.gif" alt="gif exemplo mostrando o formulário">
 
-> Usei meus conhecimentos adquiridos até agora para construir esse simples formulário de cadastro. 🚀📚
+>Usei meus conhecimentos adquiridos até agora para construir esse simples formulário de cadastro. 🚀📚
 
-## Tecnologias Utilizadas:
+## 💻 Tecnologias Utilizadas:
 
-- HTML 5
-- CSS 3
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="logo html5" width="80px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="logo css3" width="80px" />
+          
+
+## ☕ Como utilizar:
+
+1° Clone o repositório
+```
+git clone url
+```
 
 ## 📫 Contribuindo para Formulário de cadastro
 
