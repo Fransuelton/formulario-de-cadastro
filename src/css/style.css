@@ -102,4 +102,12 @@
         font-weight: normal;
         margin: 0 5px;
     }
+
+    .dados-usuario {
+        padding: 5px;
+        border: solid 2px #dcdee0;
+        border-radius: 5px;
+        font-weight: normal;
+        margin: 3px;
+    }
 }
