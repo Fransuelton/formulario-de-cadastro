@@ -3,7 +3,7 @@
     text-align: center;
     padding: 15px;
     margin: auto;
-    width: 400px;
+    width: 420px;
     height: auto;
     position: absolute;
     top: 50%;
@@ -12,38 +12,70 @@
     border-radius: 50px;
 }
 
-[type=text] {
+.dados-usuario {
+    padding: 10px 5px;
+    border: solid 2px #dcdee0;
+    border-radius: 5px;
+    font-weight: normal;
     margin: 5px;
-    padding: 5px;
-    text-decoration: none;
-    background-color: #F5F6F7;
-    border-color: #ccd0d5;
-    border-radius: 4px;
 }
 
-[type=password] {
-    margin: 5px;
-    padding: 5px;
-    background-color: #F5F6F7;
-    border-color: #ccd0d5;
-    border-radius: 4px;
-}
-
-[type=submit] {
+.botao-cadastro {
     background-color: #00A400;
-    border-radius: 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
     font-size: large;
+    font-weight: bold;
     color: white;
     font-family: "Montserrat", sans-serif;
-
 }
 
-[type=submit]:hover {
-    background-color: rgb(106, 157, 93);
+.botao-cadastro:hover {
+    background-color: rgb(62, 131, 45);
+    cursor: pointer;
 }
 
-select {
-    padding: 0 8px;
+.radio{
+    display: inline-block;
+    padding: 5px;
+    border: solid 2px #dcdee0;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 5px;
+}
+
+.radio::marker{
+    background-color: blue;
+    color: blue;
+}
+
+.select-data-de-nascimento{
+    display: inline-block;
+    padding: 5px;
+    border: solid 2px #dcdee0;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 5px;
+    padding: 0 30px;
+    height: 30px;
+    line-height: 20px;
+}
+
+.descricao-de-area {
+    padding-bottom: 5px;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.fa-xmark{
+    position: absolute;
+    margin-left: 175px;
+    height: 40px;
+    color: black;
 }
 
 @media (max-width: 576px) {
@@ -54,7 +86,7 @@ select {
         margin: auto;
         min-width: 320px;
         max-width: 900px;
-        height: 420px;
+        height: 500px;
         position: absolute;
         top: 50%;
         left: 50%;

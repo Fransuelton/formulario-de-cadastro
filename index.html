@@ -5,29 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário simples</title>
+    <title>Formulário de Cadastro</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/reset.css">
 </head>
 
 <body>
     <main class="formulario">
+        <a href="#"><i class="fa-solid fa-xmark"></i></a>
         <h1>Cadastre-se</h1>
         <p>É rápido e fácil.</p>
         <form method="get" action="index.html" enctype="multipart/form-data">
-            <input type="text" name="nome" id="nome" placeholder="Nome" required>
+            <input type="text" name="nome" id="nome" placeholder="Nome" required class="dados-usuario">
 
-            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" class="dados-usuario">
 
-            <input type="text" name="celular-ou-email" id="celular-ou-email" placeholder="Celular ou email" required>
+            <input type="text" name="celular-ou-email" id="celular-ou-email" placeholder="Celular ou email" class="dados-usuario" required>
 
-            <input type="password" name="senha" id="senha" placeholder="Nova senha" required>
+            <input type="password" name="senha" id="senha" placeholder="Nova senha" class="dados-usuario" required>
 
             <br><br>
 
-            <label>Data de nascimento</label>
-            <select name="dia">
+            <label class="descricao-de-area">Data de nascimento</label>
+            <select name="dia" class="select-data-de-nascimento">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -61,7 +65,7 @@
                 <option value="31">31</option>
             </select>
 
-            <select name="mes">
+            <select name="mes" class="select-data-de-nascimento">
                 <option value="jan">Jan</option>
                 <option value="fev">Fev</option>
                 <option value="mar">Mar</option>
@@ -76,7 +80,7 @@
                 <option value="dez">Dez</option>
             </select>
 
-            <select name="ano">
+            <select name="ano" class="select-data-de-nascimento">
                 <option value="1999">1999</option>
                 <option value="2000">2000</option>
                 <option value="2001">2001</option>
@@ -106,27 +110,35 @@
             <br>
             <br>
 
-            <label class="genero">Gênero</label><br>
+            <label class="descricao-de-area">Gênero</label>
 
-            <label for="feminino">Feminino</label>
-            <input type="radio" name="genero" id="feminino" value="feminino">
+            <div class="radio radio-feminino">
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="genero" id="feminino" value="feminino">
+            </div>
+            <div class="radio radio-masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" id="masculino" value="masculino">
+            </div>
 
-            <label for="masculino">Masculino</label>
-            <input type="radio" name="genero" id="masculino" value="masculino">
-
-            <label for="personalizado">Personalizado</label>
-            <input type="radio" name="genero" id="personalizado" value="personalizado">
-
+            <div class="radio radio-personalizado">
+                <label for="personalizado">Personalizado</label>
+                <input type="radio" name="genero" id="personalizado" value="personalizado">
+            </div>
             <br>
             <br>
 
-            <input type="submit" value="Cadastre-se">
+            <input type="submit" value="Cadastre-se" class="botao-cadastro">
 
         </form>
-        <p class="termos" t>Ao clicar em Cadastre-se, você concorda com nossos Termos, <strong><a href="#">Política de
-            Privacidade</a></strong> e <strong><a href="#">Política de Cookies</a></strong>. Você poderá receber notificações por SMS e
+        <p class="termos">Ao clicar em Cadastre-se, você concorda com nossos Termos, <strong><a href="#">Política de
+                    Privacidade</a></strong> e <strong><a href="#">Política de Cookies</a></strong>. Você poderá receber
+            notificações por SMS e
             cancelar isso quando quiser.</p>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+        integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
