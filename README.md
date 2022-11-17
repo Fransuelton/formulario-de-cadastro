@@ -14,16 +14,16 @@
 
 ## 💻 Tecnologias Utilizadas:
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="logo html5" width="80px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="logo css3" width="80px" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="logo html5" width="80px"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="logo css3" width="80px" />
           
 
 ## ☕ Como utilizar:
 
 1° Clone o repositório
 ```
-git clone url
+git clone url-do-repositorio
 ```
+2° Ou acesse o deploy do formulário [Clicando aqui](https://fransuelton.github.io/formulario-de-cadastro/).
 
 ## 📫 Contribuindo para Formulário de cadastro
 
