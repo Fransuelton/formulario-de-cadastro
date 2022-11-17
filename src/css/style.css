@@ -1,0 +1,42 @@
+.formulario {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    width: 400px;
+    height: 410px;
+    border-radius: 50px;
+}
+
+[type=text] {
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #F5F6F7;
+    border-color: #ccd0d5;
+    border-radius: 4px;
+}
+
+[type=password] {
+    margin: 5px;
+    padding: 5px;
+    background-color: #F5F6F7;
+    border-color: #ccd0d5;
+    border-radius: 4px;
+}
+
+[type=submit] {
+    background-color: #00A400;
+    border-radius: 20px;
+    font-size: large;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+[type=submit]:hover{
+    background-color: rgb(106, 157, 93);
+}
+select {
+    padding: 0 8px;
+}

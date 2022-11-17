@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário simples</title>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+</head>
+
+<body>
+    <main class="formulario">
+        <h1>Cadastre-se</h1>
+        <p>É rápido e fácil.</p>
+        <form method="get" action="index.html" enctype="multipart/form-data">
+            <input type="text" name="nome" id="nome" placeholder="Nome" required>
+
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+
+            <input type="text" name="celular-ou-email" id="celular-ou-email" placeholder="Celular ou email" required>
+
+            <input type="password" name="senha" id="senha" placeholder="Nova senha" required>
+
+            <br><br>
+
+            <label>Data de nascimento</label>
+            <select name="dia" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+
+            <select name="mes" required>
+                <option value="jan">Jan</option>
+                <option value="fev">Fev</option>
+                <option value="mar">Mar</option>
+                <option value="abr">Abr</option>
+                <option value="mai">Mai</option>
+                <option value="jun">Jun</option>
+                <option value="jul">Jul</option>
+                <option value="ago">Ago</option>
+                <option value="set">Set</option>
+                <option value="out">Out</option>
+                <option value="nov">Nov</option>
+                <option value="dez">Dez</option>
+            </select>
+
+            <select name="ano" required>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+            </select>
+
+            <br>
+            <br>
+
+            <label>Gênero</label><br>
+
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" id="feminino" value="feminino" checked>
+
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+
+            <label for="personalizado">Personalizado</label>
+            <input type="radio" name="genero" id="personalizado" value="personalizado">
+
+            <br>
+            <br>
+
+            <input type="submit" value="Cadastre-se">
+
+        </form>
+        <p class="termos" t>Ao clicar em Cadastre-se, você concorda com nossos Termos, <strong>Política de
+                Privacidade</strong> e <strong>Política de Cookies</strong>. Você poderá receber notificações por SMS e
+            cancelar isso quando quiser.</p>
+    </main>
+</body>
+
+</html>
