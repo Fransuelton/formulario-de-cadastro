@@ -4,7 +4,11 @@
     padding: 15px;
     margin: auto;
     width: 400px;
-    height: 410px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 50px;
 }
 
@@ -34,9 +38,27 @@
 
 }
 
-[type=submit]:hover{
+[type=submit]:hover {
     background-color: rgb(106, 157, 93);
 }
+
 select {
     padding: 0 8px;
+}
+
+@media (max-width: 576px) {
+    .formulario {
+        background-color: white;
+        text-align: center;
+        padding: 15px;
+        margin: auto;
+        min-width: 320px;
+        max-width: 900px;
+        height: 420px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50px;
+    }
 }

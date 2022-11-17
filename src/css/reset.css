@@ -4,7 +4,8 @@
     font-family: "Montserrat", sans-serif;
 }
 body{
-    background-image: url(../images/temporaly-background.jpg);
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
 }
 
 .termos {
