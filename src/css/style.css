@@ -35,7 +35,7 @@
     cursor: pointer;
 }
 
-.radio{
+.radio {
     display: inline-block;
     padding: 5px;
     border: solid 2px #dcdee0;
@@ -45,15 +45,16 @@
     margin: 0 5px;
 }
 
-.radio::marker{
+.radio::marker {
     background-color: blue;
     color: blue;
 }
 
-.select-data-de-nascimento{
+.select-data-de-nascimento {
     display: inline-block;
     padding: 5px;
     border: solid 2px #dcdee0;
+    background-color: transparent;
     border-radius: 5px;
     font-size: 15px;
     font-weight: normal;
@@ -71,7 +72,7 @@
     font-weight: normal;
 }
 
-.fa-xmark{
+.fa-xmark {
     position: absolute;
     margin-left: 175px;
     height: 40px;
@@ -84,13 +85,23 @@
         text-align: center;
         padding: 15px;
         margin: auto;
-        min-width: 320px;
-        max-width: 900px;
-        height: 500px;
+        min-width: 400px;
+        max-width: 576px;
+        height: 550px;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 50px;
+    }
+
+    .radio {
+        display: inline-block;
+        padding: 5px;
+        border: solid 2px #dcdee0;
+        border-radius: 5px;
+        font-size: small;
+        font-weight: normal;
+        margin: 0 5px;
     }
 }
