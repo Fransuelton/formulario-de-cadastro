@@ -129,20 +129,19 @@
 
     .radio {
         display: inline;
-        padding: 1px;
-        border: solid 2px #dcdee0;
-        border-radius: 5px;
-        font-size: smaller;
-        margin: 0;
-    }
-
-    .dados-usuario {
         padding: 5px;
         border: solid 2px #dcdee0;
         border-radius: 5px;
-        font-weight: normal;
+        font-size: smaller;
         margin: 3px;
-        width: 170px;
+    }
+
+    .dados-usuario {
+        padding: 10px 5px;
+        border: solid 2px #dcdee0;
+        border-radius: 5px;
+        font-weight: normal;
+        margin: 5px;
     }
 
     .select-data-de-nascimento {
