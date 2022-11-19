@@ -95,12 +95,12 @@
 
     .radio {
         display: inline-block;
-        padding: 5px;
+        padding: 0 10px;
         border: solid 2px #dcdee0;
         border-radius: 5px;
-        font-size: small;
+        font-size: 15px;
         font-weight: normal;
-        margin: 0 5px;
+        margin: 0 10px;
     }
 
     .dados-usuario {
