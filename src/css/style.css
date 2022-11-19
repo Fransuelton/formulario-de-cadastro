@@ -79,13 +79,13 @@
     color: black;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .formulario {
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         text-align: center;
         margin: auto;
         width: 386px;
-        height: 470px;
+        height: 490px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -110,5 +110,57 @@
         font-weight: normal;
         margin: 3px;
         width: 170px;
+    }
+}
+
+@media (max-width: 576px) {
+    .formulario {
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        margin: auto;
+        width: 325px;
+        height: 540px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+    }
+
+    .radio {
+        display: inline;
+        padding: 1px;
+        border: solid 2px #dcdee0;
+        border-radius: 5px;
+        font-size: smaller;
+        margin: 0;
+    }
+
+    .dados-usuario {
+        padding: 5px;
+        border: solid 2px #dcdee0;
+        border-radius: 5px;
+        font-weight: normal;
+        margin: 3px;
+        width: 170px;
+    }
+
+    .select-data-de-nascimento {
+        display: inline-block;
+        padding: 5px;
+        border: solid 2px #dcdee0;
+        background-color: transparent;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: normal;
+        margin: 0 5px;
+        padding: 0 15px;
+        height: 30px;
+        line-height: 10px;
+    }
+
+    .fa-xmark {
+        position: absolute;
+        right: 10px;
     }
 }
