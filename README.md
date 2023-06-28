@@ -6,7 +6,7 @@ Esse projeto é baseado no formulário de cadastro atual do Facebook. Nele, colo
 
 ### 🔗 Links
 
-- [Deployment no Github Pages](https://fransuelton.github.io/single-price-grid-component/)
+- [Deployment no Github Pages](https://fransuelton.github.io/formulario-de-cadastro/)
 
 ### ✨ Tecnologias Utilziadas
 
