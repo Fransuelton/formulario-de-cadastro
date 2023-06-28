@@ -1,31 +1,24 @@
 # Formulário de Cadastro
 
-![GitHub repo size](https://img.shields.io/github/repo-size/fransuelton/formulario-de-cadastro??style=plastic&logo)
-![GitHub language count](https://img.shields.io/github/languages/count/fransuelton/formulario-de-cadastro??style=plastic&logo)
-![GitHub forks](https://img.shields.io/github/forks/fransuelton/formulario-de-cadastro??style=plastic&logo=github)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/fransuelton/formulario-de-cadastro??style=plastic&logo=github)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/fransuelton/formulario-de-cadastro??style=plastic&logo=github)
+![Desktop Design](design/desktop-design.jpg)
 
+Esse projeto é baseado no formulário de cadastro atual do Facebook. Nele, coloquei em prática a criação de formulários em HTML e a estilização usando CSS.
 
+### 🔗 Links
 
-<img src="./src/images/demo-readme.gif" alt="gif exemplo mostrando o formulário">
+- [Deployment no Github Pages](https://fransuelton.github.io/single-price-grid-component/)
 
->Usei meus conhecimentos adquiridos até agora para construir esse simples formulário de cadastro. 🚀📚
+### ✨ Tecnologias Utilziadas
 
-## 💻 Tecnologias Utilizadas:
+- HTML5
+- CSS
+- Flexbox
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="logo html5" width="80px"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="logo css3" width="80px" />
-          
+### 📚 Aprendizado
 
-## ☕ Como utilizar:
+Aprendi a fazer validações usando HTML puro e a criar a estrutura de um formulário simples com os métodos GET e POST. No entanto, como não é muito complexo, foi utilizado o método GET, onde as informações enviadas são incorporadas à URL.
 
-1° Clone o repositório
-```
-git clone url-do-repositorio
-```
-2° Ou acesse o deploy do formulário [Clicando aqui](https://fransuelton.github.io/formulario-de-cadastro/).
-
-## 📫 Contribuindo para Formulário de cadastro
+### 📫 Contribuindo para o projeto
 
 Para contribuir com esse projeto siga estas etapas:
 
@@ -36,4 +29,3 @@ Para contribuir com esse projeto siga estas etapas:
 5. Crie a solicitação de pull.
 
 ## Obrigado por visitar meu repositório!❤️
-
