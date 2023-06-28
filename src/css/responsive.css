@@ -1,0 +1,27 @@
+@media (max-width: 576px) {
+    .area-do-formulario {
+        width: 35rem;
+    }
+
+    .introducao::after {
+        right: 7%;
+    }
+
+    .formulario .area-nome-completo {
+        justify-content: center;
+    }
+
+    .formulario .area-nome-completo .area {
+        width: 15rem;
+    }
+
+    .formulario .data-info {
+        width: 10rem;
+    }
+
+    .formulario .genero .feminino,
+    .masculino,
+    .personalizado {
+        padding: 0.5rem 0.1rem;
+    }
+}
