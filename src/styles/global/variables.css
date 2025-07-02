@@ -1,0 +1,13 @@
+:root {
+  --card-background-color: #f0f2f5;
+  --default-text-color: #000000;
+  --text-color: #606770;
+  --white-color: #ffffff;
+  --button-background-color: #00a400;
+  --button-hover-background-color: #3e832d;
+
+  --input-border-color: #86868b;
+
+  --title-font-size: 3.2rem;
+  --text-font-size: 1.6rem;
+}
