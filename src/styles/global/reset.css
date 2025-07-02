@@ -21,3 +21,16 @@ a,
 a:active {
   color: #0056b3;
 }
+
+.status {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.status.success {
+  color: green;
+}
+
+.status.error {
+  color: red;
+}
