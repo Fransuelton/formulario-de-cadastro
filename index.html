@@ -13,79 +13,66 @@
 
     <link
       rel="shortcut icon"
-      href="src/images/favicon.png"
+      href="./src/assets/shared/favicon.png"
       type="image/x-icon"
     />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link rel="stylesheet" href="src/css/reset.css" />
-    <link rel="stylesheet" href="src/css/style.css" />
-    <link rel="stylesheet" href="src/css/responsive.css" />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <link rel="stylesheet" href="./src/styles/pages/index/index.css" />
   </head>
 
   <body>
     <main class="container">
-      <div class="area-do-formulario">
-        <div class="introducao">
-          <img
-            src="https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/zgulV2zGm8t.png"
-            alt="cl"
-          />
-          <h1 class="titulo">Cadastre-se</h1>
-          <p class="texto">É rápido e fácil.</p>
+      <div class="form-card-wrapper">
+        <div class="text-wrapper">
+          <h1 class="title">Cadastre-se</h1>
+          <p class="subtitle">É rápido e fácil.</p>
         </div>
 
         <hr />
 
-        <form action="index.html" method="get" class="formulario">
-          <div class="area-nome-completo">
+        <form class="form">
+          <div class="full-name-input-wrapper">
             <input
               type="text"
-              name="nome"
-              id="nome"
+              name="name"
+              id="name"
               placeholder="Nome"
-              class="area info"
+              class="input"
               required
             />
 
             <input
               type="text"
-              name="sobrenome"
-              id="sobrenome"
+              name="lastname"
+              id="lastname"
               placeholder="Sobrenome"
-              class="area info"
+              class="input"
             />
           </div>
 
           <input
             type="text"
-            name="celular-ou-email"
-            id="celular-ou-email"
+            name="phone-or-email"
+            id="phone-or-email"
             placeholder="Celular ou email"
-            class="info"
+            class="input"
             required
           />
 
           <input
             type="password"
-            name="senha"
-            id="senha"
+            name="password"
+            id="password"
             placeholder="Nova Senha"
-            class="info"
+            class="input"
             required
           />
 
           <label class="label">Data de nascimento</label>
 
-          <div class="data-de-nascimento">
-            <select name="dia" class="data-info">
+          <div class="date-wrapper">
+            <select name="day" class="input">
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -119,7 +106,7 @@
               <option value="31">31</option>
             </select>
 
-            <select name="mes" class="data-info">
+            <select name="month" class="input">
               <option value="jan">Jan</option>
               <option value="fev">Fev</option>
               <option value="mar">Mar</option>
@@ -134,7 +121,7 @@
               <option value="dez">Dez</option>
             </select>
 
-            <select name="ano" class="data-info">
+            <select name="year" class="input">
               <option value="1999">1999</option>
               <option value="2000">2000</option>
               <option value="2001">2001</option>
@@ -165,51 +152,34 @@
 
           <label class="label">Gênero</label>
 
-          <div class="genero">
-            <div class="feminino">
-              <label for="feminino">Feminino</label>
-              <input
-                type="radio"
-                name="genero"
-                id="feminino"
-                value="feminino"
-              />
+          <div class="gender-wrapper">
+            <div class="radio-container">
+              <label for="female">Feminino</label>
+              <input type="radio" name="gender" id="female" value="female" />
             </div>
 
-            <div class="masculino">
-              <label for="masculino">Masculino</label>
-              <input
-                type="radio"
-                name="genero"
-                id="masculino"
-                value="masculino"
-              />
+            <div class="radio-container">
+              <label for="male">Masculino</label>
+              <input type="radio" name="gender" id="male" value="male" />
             </div>
 
-            <div class="personalizado">
-              <label for="personalizado">Personalizado</label>
-              <input
-                type="radio"
-                name="genero"
-                id="personalizado"
-                value="personalizado"
-              />
+            <div class="radio-container">
+              <label for="custom">Personalizado</label>
+              <input type="radio" name="gender" id="custom" value="custom" />
             </div>
           </div>
 
-          <div class="area-botao">
-            <input type="submit" value="Cadastre-se" class="btn" />
-          </div>
-          <div class="termos">
-            <p>
-              Ao clicar em Cadastre-se, você concorda com nossos Termos,
-              <strong><a href="#">Política de Privacidade</a></strong> e
-              <strong><a href="#">Política de Cookies</a></strong
-              >. Você poderá receber notificações por SMS e cancelar isso quando
-              quiser.
-            </p>
-          </div>
+          <button type="submit" class="button">Cadastre-se</button>
         </form>
+        <div class="terms-wrapper">
+          <p>
+            Ao clicar em Cadastre-se, você concorda com nossos Termos,
+            <strong><a href="#">Política de Privacidade</a></strong> e
+            <strong><a href="#">Política de Cookies</a></strong
+            >. Você poderá receber notificações por SMS e cancelar isso quando
+            quiser.
+          </p>
+        </div>
       </div>
     </main>
   </body>
