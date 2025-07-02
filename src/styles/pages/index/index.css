@@ -1,0 +1,69 @@
+.form-card-wrapper {
+  background-color: var(--card-background-color);
+  width: 45rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.form-card-wrapper .text-wrapper {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-card-wrapper .title {
+  font-size: var(--title-font-size);
+  color: var(--default-text-color);
+}
+
+.form-card-wrapper .subtitle {
+  font-size: var(--text-font-size);
+  color: var(--text-color);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 1.6rem;
+  gap: 1.6rem;
+}
+
+.form .full-name-input-wrapper {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+.form .label {
+  font-size: var(--text-font-size);
+}
+
+.form .date-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.form .gender-wrapper {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+.form .gender-wrapper .radio-container {
+  border: 0.1rem solid var(--input-border-color);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.terms-wrapper {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 576px) {
+  .form-card-wrapper {
+    width: 35rem;
+  }
+}
